@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.chat-box {
+    width: 500px;
+    height: 400px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #eaeaea;
+}
+
+.username {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #007bff;
+}
+
+.input-area {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.input-area input[type="text"], .input-area input[type="file"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.input-area button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.input-area input[type="file"] {
+    margin-top: 10px;
+}

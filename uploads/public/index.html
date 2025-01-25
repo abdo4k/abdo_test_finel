@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محادثة مع رفع الملفات</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="chat-box" id="chat-box">
+        <!-- الرسائل ستظهر هنا -->
+    </div>
+
+    <div class="input-area">
+        <input type="text" id="username" placeholder="أدخل اسمك..." />
+        <input type="text" id="message-input" placeholder="اكتب رسالتك..." />
+        <button onclick="sendMessage()">إرسال</button>
+        <input type="file" id="file-input" />
+        <button onclick="uploadFile()">رفع ملف</button>
+    </div>
+
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
+
